@@ -86,12 +86,12 @@ WSGI_APPLICATION = 'ideasatiba.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'django',
         'User':'django',
         'Password':'caca63417c44b24853874096ff69de66',
         'HOST': '165.22.210.169',
-        'PORT': '5432', 
+        'PORT': '', 
     }
 }
 
